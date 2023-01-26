@@ -1,0 +1,71 @@
+body {
+    background-image: url("1920px-El_Aquelarre.jpeg"); 
+    /* background-size: cover; */
+}
+
+/* .container-fluid {
+    justify-content: center;
+} */
+
+h1, 
+h2 {
+    color: #ecf3ff;
+    font-family: 'Raleway', serif;
+}
+
+a {
+    color: #d4d9db;
+    font-family: 'Raleway', serif;
+}
+
+a:hover {
+    color: #9abfc8;
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn:focus, .btn:active, .btn:visited {
+    background-color: #85909c;
+}
+
+#finalScore {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size:small;
+    font-family: 'Raleway', sans-serif;
+    color: #d4d9db;
+}
+
+#questionTitle {
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#answerCheck {
+    font-style: italic;
+    color: #ffffff;
+}
+
+.p-5 {
+    font-size: 30px;
+    color: #d4d9db;
+}
+
+#timer {
+    font-size: 20px;
+    font-style: bold;
+    color: #ecf3ff;
+}
+
+#timeLeft {
+    font-size: 20px;
+    font-style: bold;
+    color: #ecf3ff;
+}
+
