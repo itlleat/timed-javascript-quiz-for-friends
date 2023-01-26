@@ -1,5 +1,35 @@
 # timed-javascript-quiz-for-friends
+
+
 A timed quiz on JavaScript that keeps track of your high score
+
+Upon visiting the site the user can take part in the quiz by pressing the start button. 
+
+Upon starting a timer will begin in the upper right corner of the window
+
+There is also a Leader Board link visible in the upper left corner of the window
+
+When the user gets a question correct a notification will be visible beneath a line break saying correct
+
+When the user gets a question wrong there will be a notification beneath the line break that they're wrong followed by the correct answer
+
+If the timer runs out the user will get a game over and be able to start again if desired
+
+If the user completes the quiz their final score will be shown and they will be asked to enter their initials
+
+If the user does not enter their initials they will be prompted to do so
+
+The user can then go back, saving their score on the leader board, or they can clear the leaderboard
+
+Back at the start screen the user can look at or clear the leaderboard
+
+
+# Screenshot
+
+<img width="989" alt="Screen Shot 2023-01-25 at 9 16 10 PM" src="https://user-images.githubusercontent.com/118778670/214757608-b64b679f-a663-4d7b-b6e2-5750211509e5.png">
+
+# Link
+
 
 
 # 04 Web APIs: Code Quiz
