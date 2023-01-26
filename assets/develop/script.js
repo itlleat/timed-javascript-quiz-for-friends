@@ -265,6 +265,6 @@ goBackBtn.addEventListener("click", function() {
 
 clearHighScoreBtn.addEventListener("click", function(){
     window.localStorage.removeItem("high scores");
-    listOfHighScores.innerHTML = "High Scores Cleared";
+    listOfHighScores.innerHTML = "Leader Board Cleared";
     listOfHighScores.setAttribute("style", "font-family: 'Raleway', sans-serif; color: white; font-style: italic;")
 });
