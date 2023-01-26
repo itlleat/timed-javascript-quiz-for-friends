@@ -27,7 +27,7 @@
       <!-- link for high score and timer (both visible at the top of the page) -->
       <div class="row">
         <div class="col text-left">
-          <a href="#" id="viewHighScore">View High Scores</a>
+          <a href="#" id="viewHighScore">View Leader Board</a>
         </div>
         <div id="timer" class="col text-right">
           <i class="far fa-clock"></i> Timer: <span id="timeLeft">0</span>
@@ -42,12 +42,10 @@
         <main class="col-md-8 mt-5">
           <!--start button with bootstrap styling -->
           <div id="start" class="m-2 justify-content-center">
-            <h1 class="font-weight-bold pl-5 pr-5">Coding Quiz Challenge</h1>
+            <h1 class="font-weight-bold pl-5 pr-5">Timed JavaScript Quiz for Friends</h1>
             <p class="p-5">
-              Let's test your knowledge on JavaScript fundamentals! Try to
-              answer the followding code-related questions within the time
-              limit. Keep in mind that incorrect answers will penalize your time
-              by ten seconds!
+              Time to test some JavaScript fundamentals! Answer the following questions within the time
+              limit. Answer incorrectly for the high cost of fifteen seconds shaved from your time total.
             </p>
             <button
               type="button"
@@ -83,7 +81,7 @@
             <div class="col-2"></div>
             <div class="col-8 text-left">
               <h2 class="font-weight-bold pt-2 pb-3 m-2">
-                Your final score is <span id="finalScore"></span> !
+                Your score is <span id="finalScore"></span> !
               </h2>
               <form>
                 <p class="pt-2 pb-3 m-2">
@@ -112,7 +110,7 @@
             class="pl-5 ml-4 pt-5 justify-content-center font-weight-bold"
             style="display: none"
           >
-            <h2 class="font-weight-bold pt-2 pb-3 mb-2">High Scores</h2>
+            <h2 class="font-weight-bold pt-2 pb-3 mb-2">Leader Board</h2>
 
             <div
               id="listOfHighScores"
@@ -133,7 +131,7 @@
                 class="btn btn-info mt-2"
                 id="clearHighScoreBtn"
               >
-                Clear High Scores
+                Clear Leader Board
               </button>
             </p>
           </div>

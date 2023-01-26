@@ -66,9 +66,9 @@ var highScoreSection = document.getElementById("highScoreSection");
 var finalScore = document.getElementById("finalScore");
 
 var goBackBtn = document.getElementById("goBackBtn");
-var clearHighScoreBtn = document.getElementById("clearHighScoreBtn");
-var viewHighScore = document.getElementById("viewHighScore");
-var listOfHighScores = document.getElementById("listOfHighScores");
+var clearLeaderBoardBtn = document.getElementById("clearHighScoreBtn");
+var viewLeaderBoard = document.getElementById("viewHighScore");
+var listOfLeaderBoard = document.getElementById("listOfHighScores");
 
 // define other variables
 var correctAns = 0;
@@ -257,7 +257,7 @@ function showHighScores() {
     var eachNewHighScore = document.createElement("p");
     eachNewHighScore.innerHTML =
       storedHighScores[i].initials + ": " + storedHighScores[i].score;
-    listOfHighScores.appendChild(eachNewHighScore);
+    listOfLeaderBoard.appendChild(eachNewHighScore);
   }
 }
 
@@ -284,8 +284,8 @@ goBackBtn.addEventListener("click", function () {
 
 clearHighScoreBtn.addEventListener("click", function () {
   window.localStorage.removeItem("high scores");
-  listOfHighScores.innerHTML = "High Scores Cleared";
-  listOfHighScores.setAttribute(
+  listOfLeaderBoard.innerHTML = "Leader Board Cleared";
+  listOfLeaderBoard.setAttribute(
     "style",
     "font-family: 'Raleway', sans-serif; color: white; font-style: italic;"
   );
